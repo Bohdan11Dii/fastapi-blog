@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Віртуальне середовище
+venv/
+env/
+.venv/
+.env/
+
+# Логи
+*.log
+
+# Файли бази даних
+*.sqlite3
+*.db
+
+# Конфігураційні файли
+*.env
+.env.*
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Mypy / Pyre / Pylint / Coverage
+.mypy_cache/
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Static / build / dist
+build/
+dist/
+*.egg-info/
